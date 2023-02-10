@@ -1,0 +1,451 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+  font-family: sans-serif;
+  padding: 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*------------- The template css starts here SECTION 1------------- !!! */
+
+/* THE HOME PAGE MENU BGI */
+.images{
+  background-image:url(./imgndlogo/friuts\ bg.jpg);
+  background-size: cover;
+}
+/* .fixed{
+  position: fixed;
+  left:80px;
+  margin-top: -80px;
+  background-color: black;
+  z-index: 1;
+} */
+
+.black{
+  position:fixed;
+  top:0;
+  background:transparent;
+  width:100%;
+  height:50px;
+  
+}
+
+/* MENU Stylings */
+.fruitkha{
+  padding-left: 6rem;
+  padding-top: 10px;
+}
+.nav-link{
+  color:white !important;
+  padding-top: 50px !important;
+  font-weight: 650 !important;
+  font-size: 17px !important;
+}
+.nav-link:hover{
+  color:#fd7e14 !important;
+} 
+.padd{
+  padding-left: 20px;
+}
+/* The home moves to the left side */
+
+.gap1{
+  padding-left: 16rem !important;
+  padding-right: 5px;
+  color: #fd7e14 !important;
+}
+
+/* The icon moves from the top side */
+
+.gap2{
+  margin-top: 50px !important;
+}
+
+/* Hidding the arrow icon from the dropdown list */
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.pinky{
+  background-color: transparent;
+}
+
+/* the fresh & organic styling */
+
+.colorbg{
+  width:50% !important;
+  margin: 0 auto !important;
+  padding-top: 10px;
+  margin-top: 70px !important  ;
+  color:#fd7e14;
+  font-variant: small-caps;
+  letter-spacing: 5px;
+  font-size: 31px;  
+}
+
+/* The seasonal fruit styling */
+
+.high{
+  width:70%;
+  margin:0 auto;
+  color:#fff;
+  font-weight: 700;
+  font-size: 90px;
+  margin-top: 50px !important;
+}
+.colbg{
+  width:5% !important;
+}
+
+/* -----------The css styling for the buttons ------------*/
+
+.butt{
+  background-color: #fd7e14 !important;
+  border-radius: 25px !important;
+  padding: 10px 28px !important;
+  border: none !important;
+}
+.butt:hover{
+  background-color: black !important;
+  color:#fd7e14 !important;
+}
+.buttt{
+  background-color: transparent !important;
+  border:2px solid #fd7e14 !important;
+  border-radius: 25px !important;
+  padding: 10px 28px !important;
+}
+.buttt:hover{
+  background-color: #fd7e14 !important;
+}
+.buttcha{
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+/* The purpose of blank sapce covering */
+
+.spacing{
+  padding-top:100px;
+  padding-bottom: 100px;
+}
+.spacingtop{
+  padding-top:30px;
+}
+.spacingbottom{
+  padding-bottom: 100px;
+}
+
+/* ---------------------CSS for the SecondSection----------------------- */
+
+/* Adding up a section2 bgc  */
+
+.coloring{
+  background-color: whitesmoke;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/* icon around dotted circle css */
+
+.circle1{
+  width: 60%;
+  height:65px;
+  padding-top: 18px;
+  border: 2px dotted #fd7e14;
+  border-radius: 100%;
+  margin-left:40px;
+  margin-top: 60px;
+}
+
+/* icon with the text css */
+
+.txt1{
+  font-size: 20px;
+  font-weight: 700 !important;
+  color:black;
+  margin-top: 60px !important;
+  text-align: left;
+}
+.txt2{
+  line-height: 5px;
+  text-align: left;
+  color:gray;
+}
+
+/* ---------------------CSS for the ThirdSection----------------------- */
+
+span{
+  color:#fd7e14;
+  font-size: 45px;
+  font-weight: bold;
+}
+.txt3{
+  font-size: 45px;
+  font-weight: bolder;
+}
+.hrline{
+  border-bottom: 3px solid #fd7e14;
+  width:5% !important;
+  margin: 0 auto !important;
+}
+.txt4{
+  font-size: 16px;
+  color:grey;
+  margin: 0 auto;
+}
+/* cards css are here!!! */
+.adjustwid{
+  width:82% !important;
+}
+
+.Card{
+  margin-top: 45px;
+  margin-left: 18px!important;
+  margin-right: 18px !important;
+  border: none !important;
+  box-shadow: 1px 4px 8px 2px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 5px !important;
+}
+.Card:hover{
+  box-shadow: 0px 0px 0px 0px black !important;
+}
+.zoomin {
+  width: 67% !important;
+  height: 300px;
+  margin: 0 auto;
+}
+.txt5{
+  font-size: 22px;
+  font-weight: 800 !important;
+  color:black; 
+}
+.txt{
+  font-size: 35px;
+}
+
+/*------------ CSS for section Fourth HERE!!! ----------*/
+ 
+.concol{
+  background-color: whitesmoke;
+  padding-top: 160px;
+}
+.adjusttxt{
+  text-align: left !important;
+}
+
+.txt6{
+  font-size: 22px;
+  font-weight: 100;
+  margin-top: -15px;
+}
+.lihi{
+  line-height: 28px;
+  padding-top: 15px;
+}
+.but{
+  margin-right: 470px;
+}
+/* -----CSS for countdown js timer------- */
+.aligncd{
+  margin-right: 250px !important;
+}
+
+b{
+  border: 2px solid #fd7e14;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  color:#fd7e14;
+  font-size: 25px !important;
+}
+strong{
+  font-size: 16px !important;
+  font-weight: 200 !important;
+  color:gray !important;
+  
+}
+/*------------ CSS for section Fifth HERE!!! ----------*/
+ 
+.carousel-control-next
+{
+  color:black;
+}
+.siz{
+  width: 12% !important;
+  height:125px;
+  border-radius: 50%;
+}
+.S5txt1{
+  color:black;
+  font-size: 25px;
+  font-weight: 700;
+}
+.S5txt2{
+  color: gray;
+  font-size: 14px;
+  font-weight: bold;
+}
+.S5txt3{
+  color: gray;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 30px;
+}
+.carousel-indicators [data-bs-target]{
+  background-color: #fd7e14 !important;
+  visibility: hidden !important;
+}
+/* 
+span.carousel-control-next-icon , span.carousel-control-prev-icon{
+  background-color: #fd7e14 !important;
+} */
+
+/* -----------CSS for SixthSection is HERE!!!------------ */
+.pink{
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.videobg{
+  background-image: url(./imgndlogo/videoimg.jpg);
+  background-size: 100% 100%;
+  height:500px;
+  border-radius: 10px;
+  width: 45% !important;
+  margin: 0 auto;
+}
+.videotxt1{
+  font-size: 16px;
+  color:grey;
+  text-align: left !important;
+}
+/* -----------CSS for SeventhSection is HERE!!!------------ */
+.banner{
+  background-image: url(./imgndlogo/banner.jpg);
+  background-repeat: no-repeat;
+  max-zoom: 100%;
+}
+
+.bannertxt1{
+  padding-top: 50px;
+  font-size: 55px;
+  font-weight: 800;
+  text-align: left;
+}
+.bannertxt2{
+  font-size: 22px;
+  font-weight: 100;
+  text-align: left;
+  padding-top: 30px;
+  line-height: 15px;
+}
+.adjusting{
+  font-size: 50px;
+  font-weight: 800;
+  padding-left: 15px;
+}
+
+
+/* -----------CSS for eigththSection is HERE!!!------------ */
+
+.newstxt1{
+  font-size: 28px;
+  font-weight: 750 !important;
+  color:black; 
+  text-align: left;
+}
+.newstxt2{
+  font-size: 15px;
+  color:#646465;
+  text-align: left;
+  padding-top: 10px; 
+}
+.newstxt3{
+  padding-top: 20px;
+  font-size: 13px;
+  color:grey;
+  text-align: left !important;
+}
+.newstxt4{
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  text-align: left;
+  cursor:pointer
+}
+.newstxt4:hover{
+  color:#fd7e14;
+}
+.padicon{
+  margin-right: 7px;
+  margin-left: 7px;
+}
+.buttonsp{
+  margin-top: 100px;
+}
+.logos{
+  margin-top: 25px;
+  margin-left:50px;
+  margin-right: 50px;
+}
+
+/* -----------CSS for TenthSection is HERE!!!------------ */
+
+.footer{
+  background-color: #051922;
+}
+
+
+.footertxt1{
+  color: #fff;
+  font-size: 25px;
+  padding-top: 100px;
+  text-align: left;
+}
+/* .hrline1{
+  border-bottom: 3px solid #fd7e14;
+  width:5% !important;
+} */
+.footertxt2{
+  color: #c1c1c6;
+  text-align: left;
+  padding-top: 25px;
+  font-size: 15px;
+}
